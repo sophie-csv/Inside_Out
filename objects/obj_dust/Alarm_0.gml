@@ -1,0 +1,1 @@
+obj_orbs_yellow.image_speed = 0;
