@@ -5,3 +5,5 @@ global.walksp = 4;
 jumpsp = 9;
 global.maxjumps = 2;
 currjumps = 0;
+
+image_speed = 0;

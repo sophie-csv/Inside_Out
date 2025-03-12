@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_char",
+  "%Name":"obj_orbs_red",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_orbs_orange","path":"objects/obj_orbs_orange/obj_orbs_orange.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_char",
+  "name":"obj_orbs_red",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_char",
-    "path":"sprites/spr_char/spr_char.yy",
+    "name":"spr_orbs_red",
+    "path":"sprites/spr_orbs_red/spr_orbs_red.yy",
   },
   "spriteMaskId":null,
   "visible":true,

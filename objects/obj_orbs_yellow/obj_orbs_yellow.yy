@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_orbs",
-    "path":"sprites/spr_orbs/spr_orbs.yy",
+    "name":"spr_orbs_yellow",
+    "path":"sprites/spr_orbs_yellow/spr_orbs_yellow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
