@@ -36,12 +36,14 @@
   "resources":[
     {"id":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
-    {"id":{"name":"obj_dust","path":"objects/obj_dust/obj_dust.yy",},},
+    {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},},
     {"id":{"name":"obj_orbs_orange","path":"objects/obj_orbs_orange/obj_orbs_orange.yy",},},
     {"id":{"name":"obj_orbs_red","path":"objects/obj_orbs_red/obj_orbs_red.yy",},},
     {"id":{"name":"obj_orbs_yellow","path":"objects/obj_orbs_yellow/obj_orbs_yellow.yy",},},
+    {"id":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"shader","path":"sprites/shader/shader.yy",},},
     {"id":{"name":"sInvisibleWall","path":"sprites/sInvisibleWall/sInvisibleWall.yy",},},
     {"id":{"name":"spr_char","path":"sprites/spr_char/spr_char.yy",},},
@@ -53,7 +55,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

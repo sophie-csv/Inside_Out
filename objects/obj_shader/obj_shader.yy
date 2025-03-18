@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dust",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_shader",
+  "eventList":[],
   "managed":true,
-  "name":"obj_dust",
+  "name":"obj_shader",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dust",
-    "path":"sprites/spr_dust/spr_dust.yy",
+    "name":"shader",
+    "path":"sprites/shader/shader.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_dust",
-    "path":"sprites/spr_dust/spr_dust.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
