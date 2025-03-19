@@ -10,7 +10,6 @@ hsp = _move * global.walksp;
 vsp = vsp + grv;
 
 
-
 if(place_meeting(x,y+1, obj_wall))
 {
 	currjumps = 0;

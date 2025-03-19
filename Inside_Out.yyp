@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Buildings.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"Buildings.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -42,6 +44,7 @@
     {"id":{"name":"obj_orbs_yellow","path":"objects/obj_orbs_yellow/obj_orbs_yellow.yy",},},
     {"id":{"name":"obj_shader","path":"objects/obj_shader/obj_shader.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"rm_choose","path":"rooms/rm_choose/rm_choose.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"shader","path":"sprites/shader/shader.yy",},},
@@ -51,12 +54,14 @@
     {"id":{"name":"spr_orbs_orange","path":"sprites/spr_orbs_orange/spr_orbs_orange.yy",},},
     {"id":{"name":"spr_orbs_red","path":"sprites/spr_orbs_red/spr_orbs_red.yy",},},
     {"id":{"name":"spr_orbs_yellow","path":"sprites/spr_orbs_yellow/spr_orbs_yellow.yy",},},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_choose","path":"rooms/rm_choose/rm_choose.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
