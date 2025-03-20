@@ -43,3 +43,24 @@ if (place_meeting(x+hsp,y,obj_wall))
 	hsp = 0;
 }
 x = x + hsp;
+
+if(!place_meeting(x,y+1, obj_wall))
+{
+	image_index = 1;
+	image_speed = 0;
+	if (vsp > 0) image_index = 0; else image_index = 2;
+}
+else
+{
+	image_speed = 1;
+	if(hsp == 0)
+	{
+		image_index = 0;
+	}
+	else
+	{
+		image_index = 1;
+	}
+	
+}
+if (hsp != 0) image_xscale = sign(hsp);

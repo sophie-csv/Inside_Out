@@ -8,3 +8,6 @@ if( obj_lever.image_index = 0)
 	obj_lever.image_speed = 0;
 	obj_lever.image_index = 1;
 }
+
+
+instance_create_layer(room_width,room_height, "Instances", obj_shader);
