@@ -10,4 +10,4 @@ if( obj_lever.image_index = 0)
 }
 
 
-instance_create_layer(room_width,room_height, "Instances", obj_shader);
+instance_create_layer(0,0, "layer_foreground", obj_shader);

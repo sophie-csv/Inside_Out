@@ -7,3 +7,4 @@ global.maxjumps = 2;
 currjumps = 0;
 
 image_speed = 0;
+global.num_balls = 0;
